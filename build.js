@@ -53,6 +53,7 @@ const output =
   newline +
   newline + // Add one whole blank line
   working +
+  newline +
   newline + // data.labelWork + data.work
   twittering +
   newline + // data.labelTwitter + data.twitter
