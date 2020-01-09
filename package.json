@@ -1,16 +1,16 @@
 {
-  "name": "@bnb/card",
+  "name": "kim-branzell",
   "version": "1.6.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "description": "A personal card for Kim Branzell (@BranzellKim)",
   "main": "/bin/card.js",
   "bin": {
     "bitandbang": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bnb/bitandbang.git"
+    "url": "git+https://github.com/KimBranzell/npx-businesscard"
   },
-  "homepage": "https://bnb.im",
+  "homepage": "https://branzell.kim",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
@@ -26,7 +26,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Kim BRanzell <hej@jagheter.kim> (https://branzell.kim)",
   "license": "MIT",
   "files": [
     "bin/card.js",
@@ -38,10 +38,7 @@
     "standard": "^12.0.1"
   },
   "bugs": {
-    "url": "https://github.com/bnb/bitandbang/issues"
+    "url": "https://github.com/KimBranzell/npx-businesscard/issues"
   },
-  "dependencies": {},
-  "publishConfig": {
-    "registry": "https://npm.registry.github.com/"
-  }
+  "dependencies": {}
 }
