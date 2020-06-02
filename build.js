@@ -17,8 +17,8 @@ const options = {
 const data = {
   name: chalk.white("               Kim Branzell"),
   handle: chalk.white("KimBranzell"),
-  work: chalk.white("Front-end Developer @ KAN"),
-  twitter: chalk.gray("https://twitter.com/") + chalk.cyan("branzellkim"),
+  work: chalk.white("Fullstack Developer @ ID Kommunikation"),
+  twitter: chalk.gray("https://twitter.com/") + chalk.cyan("kimputerize"),
   npm: chalk.gray("https://npmjs.com/") + chalk.red("~kim-branzell"),
   github: chalk.gray("https://github.com/") + chalk.green("KimBranzell"),
   linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("kimbranzell"),
