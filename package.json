@@ -1,7 +1,7 @@
 {
   "name": "kim-branzell",
-  "version": "1.6.0",
-  "description": "A personal card for Kim Branzell (@BranzellKim)",
+  "version": "2.0.0",
+  "description": "A personal card for Kim Branzell (@kimputerize)",
   "main": "/bin/card.js",
   "bin": {
     "bitandbang": "./bin/card.js"
@@ -26,7 +26,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Kim BRanzell <hej@jagheter.kim> (https://branzell.kim)",
+  "author": "Kim Branzell <hej@jagheter.kim> (https://branzell.kim)",
   "license": "MIT",
   "files": [
     "bin/card.js",
