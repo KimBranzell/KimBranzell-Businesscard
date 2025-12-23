@@ -17,8 +17,9 @@ const options = {
 const data = {
   name: chalk.white("               Kim Branzell"),
   handle: chalk.white("KimBranzell"),
-  work: chalk.white("Fullstack Developer @ ID Kommunikation"),
-  twitter: chalk.gray("https://twitter.com/") + chalk.cyan("kimputerize"),
+  work: chalk.white("Backend Developer @ Viva Media"),
+  bluesky: chalk.gray("@") + chalk.cyan("@jagheter.kim"),
+  mastodon: chalk.gray("@branzell") + chalk.yellow("@branzell@ieji.de"),
   npm: chalk.gray("https://npmjs.com/") + chalk.red("~kim-branzell"),
   github: chalk.gray("https://github.com/") + chalk.green("KimBranzell"),
   linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("kimbranzell"),
@@ -28,7 +29,8 @@ const data = {
     " " +
     chalk.white("kim-branzell  (via GitHub Package Registry)"),
   labelWork: chalk.white.bold("       Work:"),
-  labelTwitter: chalk.white.bold("    Twitter:"),
+  labelBluesky: chalk.white.bold("    Bluesky:"),
+  labelMastodon: chalk.white.bold("   Mastodon:"),
   labelnpm: chalk.white.bold("        npm:"),
   labelGitHub: chalk.white.bold("     GitHub:"),
   labelLinkedIn: chalk.white.bold("   LinkedIn:"),
@@ -40,7 +42,8 @@ const data = {
 const newline = "\n";
 const heading = `${data.name} / ${data.handle}`;
 const working = `${data.labelWork}  ${data.work}`;
-const twittering = `${data.labelTwitter}  ${data.twitter}`;
+const blueskying = `${data.labelBluesky}  ${data.bluesky}`;
+const mastodoning = `${data.labelMastodon}  ${data.mastodon}`;
 const npming = `${data.labelnpm}  ${data.npm}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
@@ -55,7 +58,9 @@ const output =
   working +
   newline +
   newline + // data.labelWork + data.work
-  twittering +
+  blueskying +
+  newline + 
+  mastodoning +
   newline + // data.labelTwitter + data.twitter
   npming +
   newline + // data.labelnpm + data.npm
@@ -72,3 +77,4 @@ fs.writeFileSync(
   path.join(__dirname, "bin/output"),
   chalk.green(boxen(output, options))
 );
+
