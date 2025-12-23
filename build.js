@@ -18,8 +18,8 @@ const data = {
   name: chalk.white("               Kim Branzell"),
   handle: chalk.white("KimBranzell"),
   work: chalk.white("Backend Developer @ Viva Media"),
-  bluesky: chalk.gray("@") + chalk.cyan("@jagheter.kim"),
-  mastodon: chalk.gray("@branzell") + chalk.yellow("@branzell@ieji.de"),
+  bluesky: chalk.gray("https://bsky.app/profile/") + chalk.cyan("jagheter.kim"),
+  mastodon: chalk.gray("https://ieji.de/") + chalk.yellow("@branzell"),
   npm: chalk.gray("https://npmjs.com/") + chalk.red("~kim-branzell"),
   github: chalk.gray("https://github.com/") + chalk.green("KimBranzell"),
   linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("kimbranzell"),
@@ -59,7 +59,7 @@ const output =
   newline +
   newline + // data.labelWork + data.work
   blueskying +
-  newline + 
+  newline +
   mastodoning +
   newline + // data.labelTwitter + data.twitter
   npming +
